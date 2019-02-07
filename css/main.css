@@ -1,5 +1,3 @@
-
-
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
@@ -8,6 +6,11 @@
 
 html {
   box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
   font-family: "Open Sans", sans-serif;
 }
 
@@ -16,22 +19,7 @@ html {
 }
 
 body {
-  margin:0;
-}
-
-.h2 {
-  font-family: Open Sans;
-  background-color: #e86033;
-}
-
-.h2 {
-  font-family: Gravitas One;
-  background-color: #fbd25e;
-}
-
-.h2 {
-  font-family: Rammetto One;
-  background-color: #e97065;
+  margin: 0;
 }
 
 .font-gravitas {
@@ -47,13 +35,13 @@ body {
 }
 
 .pink {
-background-color: #e97065;
+  background-color: #e97065;
 }
 
 .orange {
-background-color: #e86033;
+  background-color: #e86033;
 }
 
 .yellow {
-background-color: #fbd25e;
+  background-color: #fbd25e;
 }
